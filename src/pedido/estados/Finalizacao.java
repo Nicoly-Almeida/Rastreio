@@ -5,7 +5,7 @@ import pedido.Pedido;
 public class Finalizacao implements Estado{
     @Override
     public void preparar(Pedido pedido) {
-        System.out.println("Seu pedido está sendo preparado!");
+        System.out.println("Seu pedido foi finalizado!");
     }
 
     @Override
