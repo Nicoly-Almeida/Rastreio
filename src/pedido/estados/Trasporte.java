@@ -5,7 +5,7 @@ import pedido.Pedido;
 public class Trasporte implements Estado{
     @Override
     public void preparar(Pedido pedido) {
-        System.out.println("Seu pedido ainda está em transito!");
+        System.out.println("Seu pedido já está em transito!");
     }
 
     @Override
@@ -21,6 +21,6 @@ public class Trasporte implements Estado{
 
     @Override
     public void finalizar(Pedido pedido) {
-        System.out.println("Seu pedido ainda está em transito!");
+        System.out.println("Seu ainda pedido está em transito!");
     }
 }

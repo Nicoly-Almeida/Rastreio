@@ -63,7 +63,7 @@ public class Pedido {
         this.receber();
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Tudo ocorreu bem com o seu pedido? (sim ou não)");
+        System.out.println("Tudo ocorreu bem com o seu pedido? (sim ou nao)");
         String feedback = scanner.nextLine();
 
         if (feedback.equalsIgnoreCase("nao")) {
